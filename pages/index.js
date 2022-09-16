@@ -1,17 +1,19 @@
 import React from 'react'
-import { About, Footer, Header, Skills, Testimonial, Work } from '../containers'
+import { Header, About, Experience, Services, Portfolio, Testimonials, Contact, Footer } from '../containers'
 import { Navbar } from '../components'
 
 function index() {
   return (
     <>
+      <Header/>
       <Navbar/>
       <About/>
+      <Experience/>
+      <Services/>
+      <Portfolio/>
+      <Testimonials/>
+      <Contact/>
       <Footer/>
-      <Header/>
-      <Skills/>
-      <Testimonial/>
-      <Work/>
     </>
   )
 }
