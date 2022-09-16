@@ -1,5 +1,6 @@
 import '../styles/globals.css'
-import './index.css'
+import '../styles/index.css'
+import '../containers/Header/header.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
