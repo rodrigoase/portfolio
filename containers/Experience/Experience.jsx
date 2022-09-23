@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsPatchCheckFill } from 'react-icons/bs'
+import { Skill } from '../../components'
 
 function Experience() {
   return (
@@ -44,6 +45,7 @@ function Experience() {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+            <Skill title={"CSS"} level={"Intermediate"}/>
           </div>
         </div>
       </div>
